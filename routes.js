@@ -16,5 +16,14 @@ export const ROUTES = [
       "Ajeitando a câmera…",
       "Apertando o play…"
     ]
+  },
+  {
+    key: "gextorpro", //ERP
+    url: "https://gextorpro.com",
+    messages: [
+      "Conectando ERP…",
+      "Ajeitando a interface…",
+      "Conectando ao banco de dados…"
+    ]
   }
 ];
