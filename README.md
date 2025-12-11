@@ -16,8 +16,8 @@ O sistema funciona através de um parâmetro de URL chamado `where`.
 
 ### Exemplos de URL
 
-- **Instagram**: `https://seu-usuario.github.io/seu-repositorio/?where=instagram`
-- **YouTube**: `https://seu-usuario.github.io/seu-repositorio/?where=youtube`
+- **Instagram**: `https://leeocoder.github.io/entra-ai/?where=instagram`
+- **YouTube**: `https://leeocoder.github.io/entra-ai/?where=youtube`
 
 Se você acessar sem parâmetros ou com uma rota inválida, o sistema exibirá uma mensagem de erro amigável.
 
@@ -66,10 +66,15 @@ setTimeout(() => {
 ## 📦 Deploy no GitHub Pages
 
 1. Faça o upload (“push”) deste código para um repositório no GitHub.
-2. Vá em **Settings** > **Pages**.
+2. Vá em **Settings** > **Pages** no seu repositório.
 3. Em **Source**, selecione `Deploy from a branch` e escolha a branch `main` (ou `master`).
-4. Salve. O GitHub vai gerar seu link (ex: `https://usuario.github.io/repo/`).
-5. Use o link com o parâmetro `?where=seu-destino`.
+4. Salve. O GitHub vai levar alguns instantes e gerar seu link.
+5. O link final será exatamente neste formato:
+   
+   👉 **`https://leeocoder.github.io/entra-ai/`**
+
+6. Para testar, adicione o parâmetro no final:
+   `https://leeocoder.github.io/entra-ai/?where=instagram`
 
 ---
 
