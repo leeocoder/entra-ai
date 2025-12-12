@@ -10,7 +10,7 @@ export const ROUTES = [
   },
   {
     key: "youtube",
-    url: "https://youtube.com",
+    url: "https://youtu.be/N1FeCYMBHMg",
     messages: [
       "Acendendo holofotes…",
       "Ajeitando a câmera…",
